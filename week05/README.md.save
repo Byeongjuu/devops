@@ -1,0 +1,32 @@
+## 5주차 
+## 배운 내용
+- Docker이미지와 컨테이너의 개념
+- 가상 머신과 컨테이너의 차이
+- Docker를 이용한 Nginx 웹 서버 실행
+- Github Issue를 활용한 작업 관리
+
+## Docker 주요 명령어
+```
+docker run
+docker ps
+docker stop
+docker rm
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## 수업 중 과제
+<h1>Welcome to nginx1</h1>
+<h1>Welcome to nginx2</h1>
+<h1>Welcome to nginx3</h1>
