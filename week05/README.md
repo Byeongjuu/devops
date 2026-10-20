@@ -2,7 +2,7 @@
 ## 배운 내용
 - Docker와 컨테이너의 개념
 - 가상 머신과 컨테이너의 차이
-- Docker를 이용한 ningx 웹 서버 실행
+- Docker를 이용한 nginx 웹 서버 실행
 
 ## Docker
 - 프로그램을 실행하는 데 필요한 환경을 이미지로 만들어 사용할 수 있는 도구
@@ -14,7 +14,7 @@
 docker run -d -p 8080:80 --name wdb nginx
 -d는 백그라운드 실행, -p는 컴퓨터의 포트와 컨테이너의 포트를 연결하는 옵션
 docker run
-dockep ps
+docker ps
 docker stop
 docker rm
 ```
