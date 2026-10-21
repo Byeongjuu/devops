@@ -20,6 +20,15 @@ CMD
 - dockerfile은 위 명령어들을 순서대로 작성하여 이미지를 만드는 파일이다.
 - RUN은 이미지 빌드 과정에서 실행되고 CMD는 컨테이너 시작 시 실행된다.
 
+# 방명록 이미지 빌드
+```
+docker build -t guestbook:v2 .
+docker images
+docker run -d -p 8081:5000 --name gb guestbook:v2
+```
+-t는 이미지 이름과 태그를 지정하고, 마지막의 . 은 현재 폴더를 빌드에 사용할 파일들의 기준 위치로 지정한다.
+
+
 ## 빌드 캐시 
 ```
 docker build -t guestbook:v1.1 .
