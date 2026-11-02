@@ -5,3 +5,5 @@ week04/restore-check/
 *:Zone.Identifier
 .env
 .save
+kubectl
+minikube-linux-amd64
