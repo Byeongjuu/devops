@@ -7,3 +7,5 @@ week04/restore-check/
 .save
 kubectl
 minikube-linux-amd64
+secret.yaml
+guestbook/k8s/secret.yaml
