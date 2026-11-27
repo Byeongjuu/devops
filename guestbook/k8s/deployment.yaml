@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: web
-          image: ghcr.io/byeongjuu/guestbook:664b684
+          image: ghcr.io/byeongjuu/guestbook:cc3bde9
           ports:
             - containerPort: 5000
           envFrom:
